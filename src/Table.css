@@ -1,0 +1,21 @@
+.table {
+  margin: 20px auto;
+  height: 500px;
+  overflow: scroll;
+  scroll-behavior: smooth;
+  color: #6a5d5d;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.table div {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  margin: 0 2px;
+}
+
+.table div:nth-of-type(odd) {
+  background-color: #f3f2f8;
+}
